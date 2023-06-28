@@ -8,6 +8,7 @@ import { CardapioComponent } from './modules/gerenciadorCardapioWeb/cardapio/car
 import { PedidosComponent } from './modules/gerenciadorCardapioWeb/pedidos/pedidos.component';
 import { ConfiguracoesComponent } from './modules/gerenciadorCardapioWeb/configuracoes/configuracoes.component';
 import { MesaComponent } from './modules/cardapioMobile/mesa/mesa.component';
+import { HeaderComponent } from './core/components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MesaComponent } from './modules/cardapioMobile/mesa/mesa.component';
     CardapioComponent,
     PedidosComponent,
     ConfiguracoesComponent,
-    MesaComponent
+    MesaComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
